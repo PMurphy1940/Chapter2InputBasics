@@ -4,20 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="styles/layout.css">
 </head>
 <body>
-    <fieldset>
-        <label for="favoriteThings">These are a few of my favorite things</label>
-        <input type="text" id="favoriteThings" placeholder="This is something I want" autofocus />
-    </fieldset>
-    <fieldset>
-        <label for="purchaseLocation">Can be purchased at:</label>
-        <input type="text" id="location" placeholder="Store" />
-    </fieldset>
+    <header>
+        <h1>Make a wish</h1>
+    </header>
+    <div class="fieldsetContainer">
+        <fieldset>
+            <label for="favoriteThings">Add a wish</label>
+            <input type="text" id="favoriteThings" size="55" placeholder="I would love this" autofocus />
+        </fieldset>
+        <fieldset>
+            <label for="purchaseLocation">Can be purchased at:</label>
+            <input type="text" id="location" placeholder="Store" size="55"/>
+        </fieldset>
+    </div>
     <button id="saveEntry">Save to wishlist</button>
-    <article> 
+    <h2 class="wishListTop">My saved wishes</h2>
+    <article id="savedList"> 
         <ul id="wishlist">
-            
+
         </ul>
     </article>
 </body>

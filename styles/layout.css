@@ -1,0 +1,44 @@
+h1 {
+    border-bottom: 1px solid wheat;
+}
+
+.fieldsetContainer{
+    background-color: rgba(196, 233, 211, 0.329);
+    border: groove;
+    margin: 2%;
+}
+
+fieldset {
+    display: flex;
+    margin: 2%;
+    background-color: rgb(196, 233, 211);
+}
+
+label {
+    font-weight: bold;
+}
+
+input {
+    border: groove;
+}
+
+#saveEntry {
+    background-color: wheat;
+    border-radius: 20%;
+    padding: 1%;
+    border: groove;
+    margin-left: 5%;
+    font-weight: bold;
+}
+
+#savedList {
+    background-color: rgba(245, 222, 179, 0.568);
+    margin: 2%;
+    border: groove;
+    max-width: 60%;
+}
+
+.wishListTop {
+    border-bottom: 1px solid wheat;
+    margin-top: 7%;
+}
